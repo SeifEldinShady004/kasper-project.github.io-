@@ -1,0 +1,43 @@
+/*My Footer --------------------------*/
+:root{
+    --mainColor:#777 ;
+}
+footer.my-footer{
+    position: relative;
+}
+footer.my-footer > div{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent; /* This BG.C Is Up To Design*/
+    text-align: center;
+    padding:10px 20px;
+    top:-38px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+footer.my-footer p {
+    color: #FFF;
+    font-weight: bold;
+    font-family: arial ,tahoma sans-serif
+}
+footer.my-footer p a {
+    text-decoration: none;
+    color: #19c8fa ; /* It Is Up To Design*/
+}
+footer.my-footer > div i:first-of-type {
+    position: relative;
+    color:#19c8fa;
+    font-size: 12px;
+    margin-left: 5px;
+}
+footer.my-footer > div i:only-child {
+    position: absolute;
+    color: #FFF;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    font-size: 1px;
+    margin: 0 ;
+}
